@@ -1,4 +1,4 @@
-function countBs(string, letter) {
+function countChars(string, letter) {
   tally = 0
   for(i = 0; i < string.length; i++) {
     if(string.charAt(i) === letter){
@@ -8,4 +8,4 @@ function countBs(string, letter) {
   console.log(tally)
 }
 
-countBs("BigBroncos", "r")
+countChars("BigBroncos", "r")
