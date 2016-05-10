@@ -9,3 +9,4 @@ function countChars(string, letter) {
 }
 
 countChars("BigBroncos", "r")
+countChars("RedditR", "R")
